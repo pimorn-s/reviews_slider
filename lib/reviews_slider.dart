@@ -134,7 +134,6 @@ class _ReviewSliderState extends State<ReviewSlider> with SingleTickerProviderSt
   Widget build(BuildContext context) {
     return Container(
       padding: EdgeInsets.symmetric(horizontal: paddingSize),
-      height: 100,
       child: LayoutBuilder(
         builder: (context, size) {
           return Stack(
